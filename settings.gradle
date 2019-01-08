@@ -1,0 +1,1 @@
+include ':app', ':app-dialog', ':app-updater'
