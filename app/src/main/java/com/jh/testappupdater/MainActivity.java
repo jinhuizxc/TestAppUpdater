@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private final Object mLock = new Object();
 
     private String mUrl = "https://raw.githubusercontent.com/jenly1314/AppUpdater/master/app/release/app-release.apk";
+//    private String mUrl = "https://github.com/jinhuizxc/TestAppUpdater/tree/master/app/release/app-release.apk";  // 解析包出现错误
     //    private String mUrl = "https://pro-app-qn.fir.im/1ddfe25998acd3d861d746101e6e079e1611b666.apk?attname=app-release.apk_1.2.apk";
 
     private ProgressBar progressBar;
@@ -53,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
 
+        
     }
+
 
     private Context getContext() {
         return this;
